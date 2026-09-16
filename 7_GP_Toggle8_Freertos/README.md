@@ -58,6 +58,12 @@ CCS 21.x / **SysConfig 미사용** / C2000Ware 26.00.00.00 driverlib(로컬 복�
 3. Debug 연결 후 Flash/Run — `.ccxml`은 `TMS320F28P650DK9.ccxml` 사용 (DK8-Q1 최초 연결 시
    확인 필요, 7_GP_Toggle8_Driverlib와 동일한 주의사항)
 
+압축을 미리 풀어서 import하거나 zip 파일을 그대로 "Select archive file"로 import해도
+둘 다 정상 동작합니다 — `driverlib.lib`를 zip-import 시 unresolved로 만들던 버그를
+고쳤습니다(자세한 내용은
+[7_GP_Toggle8_Driverlib의 Import 절](../7_GP_Toggle8_Driverlib/README.md#import--build--flash--run)
+참고).
+
 ## 정상 동작 확인
 7_GP_Toggle8_Driverlib와 동일하게 스위치를 켜고 끄면 LED Indicator가 반응합니다. 딜레이가
 `vTaskDelay()`(FreeRTOS 틱 기준, 1ms 틱)로 바뀌어서 폴링 주기가 DriverLib 버전의
