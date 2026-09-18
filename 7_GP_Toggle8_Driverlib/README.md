@@ -132,5 +132,5 @@ msec 동안 접점이 튕기는 현상, 자세한 설명은
 
 ## 관련 링크
 - 상품 페이지: https://tms320f28x.co.kr/goods/goods_view.php?goodsNo=200903127
-- 게시판 글: (게시 후 URL 추가 예정)
+- 게시판 글: https://tms320f28x.co.kr/board/view.php?bdId=tms320f28xevmv2&sno=106
 - 유튜브 영상: (게시 후 URL 추가 예정)
